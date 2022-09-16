@@ -1,0 +1,60 @@
+<html>
+<head>
+      
+     
+     <link rel="stylesheet"  href="cascade.css"> 
+</head>
+<body>
+  <div class="container">
+        <div class="navbar">
+             <img src="logo.png" class="logo">
+             <nav >
+		     <ul id="menuList">
+    		       <li><a href="">Models</a></li>
+    		       <li><a href="">Accessories</a></li>
+    		       <li><a href="">Media</a></li>
+    		       <li><a href="">Others</a></li>
+		     </ul>
+	         </nav>
+              <img src="menu.png" class="menu-icon" 
+              onclick="togglemenu()">
+        </div>
+	<div class="row">
+		<div class="col-1">
+			<h1>MAX</h1><br>
+                  <h2>Classy going out otfits</h2>
+			<h3>Online exclusives  160+ unique styles available online only Rs.299 onwards</h3>
+			<p>Look good Feel good!!!!</p>
+			<h4>Rs.299-6k</h4>
+                  <button type="button">Buy Now<img src="arrow.png">
+                  </button>
+		</div>
+		<div class="col-2">
+                <img src="controller.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                  <img src="add.png">
+                  <p><small>Add to cart</small></p>
+                </div>
+             </div>
+            
+	 
+  </div>
+
+  <script>
+     var menuList = document.getElementById("menuList");
+     menuList.style.maxHeight = "0px";
+     function togglemenu(){
+          if(menuList.style.maxHeight == "0px")
+                {
+                       menuList.style.maxHeight = "130px";
+                }
+          else
+                {
+                       menuList.style.maxHeight = "0px";
+                }
+      }
+   </script>
+
+</body>
+</html>
